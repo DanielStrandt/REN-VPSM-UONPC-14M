@@ -259,7 +259,6 @@ with gr.Blocks(css=CSS, title="REN VPSM UO NPC 14M") as demo:
         with gr.Column(scale=2, min_width=420):
             chat = gr.Chatbot(
                 label="Display-only conversation",
-                type="messages",
                 height=360,
                 placeholder="Your NPC's short replies will appear here.",
             )
