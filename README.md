@@ -41,7 +41,7 @@ Requires Python 3.10+ and the packages in `requirements.txt`.
 ```text
 python -m pip install -r requirements.txt
 python verify_bundle.py
-python vpsm_npc_chat_gui.py
+python vpsm_npc_chat_gui_longer.py
 ```
 
 The GUI uses bundle-relative paths, fresh recurrent state for every message,
@@ -68,18 +68,16 @@ model/       Frozen checkpoint
 tokenizer/   Matching tokenizer and metadata
 runtime/     Model architecture and reusable inference core
 provenance/  Evaluation summaries and review worksheet
-vpsm_npc_chat_gui.py          Production-oriented 18-token GUI
-vpsm_npc_chat_gui_longer.py   Experimental adjustable-cap GUI
+vpsm_npc_chat_gui_longer.py   Desktop chat GUI with adjustable output cap
 reference/   Legacy reference implementation; not the production entry point
 ```
 
-The two GUI files are convenience applications. A live UO server should
-enforce its own input and two-output speech limits and split replies without
-cutting through words.
+The GUI is a convenience application with a 40-token default output cap and
+an adjustable limit. A live UO server should enforce its own input and
+two-output speech limits and split replies without cutting through words.
 
 ## License
 
 Copyright (c) 2026 Daniel Strandt.
 
 Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE).
-
