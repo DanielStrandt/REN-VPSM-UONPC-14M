@@ -1,0 +1,10 @@
+{
+  "dataset": "roneneldan/TinyStories",
+  "vocab_size": 5000,
+  "normalization_version": "tiny-english-v2-implicit-boundary",
+  "training_fraction": 0.25,
+  "training_stories": 529929,
+  "seconds": 71.23084790003486,
+  "fingerprint": "19b02afcbd31da500c3f66578a5bc18024289d03ee6e53b1ec816a667cfbb2fc",
+  "lexical_constraint": "^[a-z]+$"
+}

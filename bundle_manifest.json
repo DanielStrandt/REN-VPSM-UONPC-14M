@@ -1,0 +1,205 @@
+{
+  "architecture": {
+    "bundle_path": "runtime/uo_vpsm_model_ren_v5_scan.py",
+    "source_path": "F:\\uovpsm\\uo_vpsm_model_ren_v5_scan.py",
+    "source_sha256": "f88c67bdb618d2fb2846d8aaf5e5f5c8727589dd803eb1e1ef85da95a7d0f53a"
+  },
+  "built_unix_time": 1789401229.4138596,
+  "bundle_fingerprint": "591810d19829e017007537779962b358f295611fc1161a3631de5c4f1110eb70",
+  "bundle_format_version": 1,
+  "checkpoint": {
+    "bundle_path": "model/vpsm_v5_uo_npc_final.pt",
+    "config": {
+      "channel_read_gate_init": 0.9,
+      "d_ff": 1024,
+      "d_model": 256,
+      "decay_gain_init": 1.0,
+      "decay_gain_max": 4.0,
+      "dropout": 0.0,
+      "feature_read_gate_init": 0.9,
+      "feature_read_rank": 32,
+      "ignore_index": -100,
+      "init_std": 0.02,
+      "mlp_bias": false,
+      "n_layers": 16,
+      "n_state_channels": 8,
+      "norm_eps": 1e-06,
+      "persistence_scales": [
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0
+      ],
+      "read_gain_init": 1.0,
+      "read_gain_max": 2.0,
+      "reference_coordinate_affine": false,
+      "reference_coordinate_detach_scale": true,
+      "reference_gain_init": 0.5,
+      "reference_gain_max": 2.0,
+      "reference_rank": 32,
+      "ren_alpha": 0.75,
+      "ren_groups": 8,
+      "scale_residual_projections": true,
+      "state_dim": 32,
+      "state_read_affine": false,
+      "state_read_detach_scale": false,
+      "state_read_use_ren": false,
+      "tie_embeddings": true,
+      "training_seq_len": 128,
+      "vocab_size": 5000,
+      "write_gain_init": 0.95,
+      "write_gain_max": 1.0,
+      "write_gate_inits": [
+        0.1,
+        0.05,
+        0.02,
+        0.008,
+        0.003,
+        0.001,
+        0.0003,
+        0.0001
+      ]
+    },
+    "epoch": 14,
+    "parameter_count": 13660176,
+    "source_path": "F:\\uovpsm\\vpsm_v5_npc_sft_chat_v7_semantic_routing_final\\checkpoints\\epoch_14.pt",
+    "source_sha256": "4890b25cdc4c1e3c9fdee09d9f298dc0d23e0ff9f80935477d2c36f3f3d80d68"
+  },
+  "copied_provenance": [
+    "vpsm_v5_npc_sft_chat_v7_semantic_routing_final__epoch_metrics.json",
+    "vpsm_v5_npc_sft_chat_v7_epoch14_comprehensive_infer__comprehensive_infer_summary.json",
+    "vpsm_v5_npc_sft_chat_v7_epoch14_comprehensive_infer__comprehensive_infer_summary.md",
+    "vpsm_v5_npc_sft_chat_v7_epoch14_comprehensive_infer__comprehensive_human_review.csv"
+  ],
+  "files": [
+    {
+      "path": "apps/README.txt",
+      "sha256": "f879ee5a53b14cb5ec636263399e290a0f2598ba937149a453b2c8afaaf433bf",
+      "size_bytes": 149
+    },
+    {
+      "path": "FINAL_MODEL.txt",
+      "sha256": "7e9ee9b6f15b39c83d4820eda444ee4dbffe58efd052063a74a544ebb8f26d25",
+      "size_bytes": 823
+    },
+    {
+      "path": "model/vpsm_v5_uo_npc_final.pt",
+      "sha256": "4890b25cdc4c1e3c9fdee09d9f298dc0d23e0ff9f80935477d2c36f3f3d80d68",
+      "size_bytes": 54787965
+    },
+    {
+      "path": "provenance/vpsm_v5_npc_sft_chat_v7_epoch14_comprehensive_infer__comprehensive_human_review.csv",
+      "sha256": "19c8c9398eb787a2735d5084fc7105c3b4c6892e61d8327a64580f084197e4f1",
+      "size_bytes": 108549
+    },
+    {
+      "path": "provenance/vpsm_v5_npc_sft_chat_v7_epoch14_comprehensive_infer__comprehensive_infer_summary.json",
+      "sha256": "674c0b5104512ca8e99df948845e9c0d886a3823cd3a4b1feba3c295bf765154",
+      "size_bytes": 18587
+    },
+    {
+      "path": "provenance/vpsm_v5_npc_sft_chat_v7_epoch14_comprehensive_infer__comprehensive_infer_summary.md",
+      "sha256": "7944eda01cf383ff6881cde0da9e20b49a7835637800118e34cf0cbe11be95e5",
+      "size_bytes": 13881
+    },
+    {
+      "path": "provenance/vpsm_v5_npc_sft_chat_v7_semantic_routing_final__epoch_metrics.json",
+      "sha256": "f2157f8cffc32cbf40cc1f698324305644bc05f8092b9afa49e528f0bf3e5d36",
+      "size_bytes": 224012
+    },
+    {
+      "path": "README.txt",
+      "sha256": "b1c4a518d05ac18ca90ee594e0d9de36479b7a090f7a952e18eb1e1e977c2a28",
+      "size_bytes": 3227
+    },
+    {
+      "path": "reference/infer_vpsm_v5_npc_chat_gui_singleturn.py",
+      "sha256": "77d9bcd8f882db3f70c499aed138f714616dd7ed760887c30170808a003b4488",
+      "size_bytes": 50411
+    },
+    {
+      "path": "reference/README.txt",
+      "sha256": "344aec8c53fc4f12eb0f5f1c2c4c4a6139838e1f7620ea42ba7476e9b49dd1be",
+      "size_bytes": 189
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "cf924fe9968fd0d081b0a54520a75b5012b69daeca0d7a6661c4fb6d282f7d40",
+      "size_bytes": 216
+    },
+    {
+      "path": "runtime/__init__.py",
+      "sha256": "4669dd5af39c73a44ca52d79fe525f5d7d90af64cf5866f9aa54668c0e536b87",
+      "size_bytes": 381
+    },
+    {
+      "path": "runtime/uo_vpsm_model_ren_v5_scan.py",
+      "sha256": "f88c67bdb618d2fb2846d8aaf5e5f5c8727589dd803eb1e1ef85da95a7d0f53a",
+      "size_bytes": 35905
+    },
+    {
+      "path": "runtime/vpsm_npc_runtime.py",
+      "sha256": "94f4dc91e3649c06de47e7587224dae2b6b0580b8cefe8c545249a646f9f7a34",
+      "size_bytes": 17486
+    },
+    {
+      "path": "runtime_environment.json",
+      "sha256": "f99e8f667c39aa23427b144b3a4b9bd54305dc31c2bd67af8fdfda6a43e4b452",
+      "size_bytes": 563
+    },
+    {
+      "path": "tokenizer/tokenizer.json",
+      "sha256": "2b433ddd27e2d527d7cb3d00a5bad31bf7a2c76f8d42700b8f6935156aff46c6",
+      "size_bytes": 329979
+    },
+    {
+      "path": "tokenizer/tokenizer_meta.json",
+      "sha256": "e46e66f6fcaf2ea34ab24e627639c3e6371ed37ce293df5784558d18a2c2f263",
+      "size_bytes": 348
+    },
+    {
+      "path": "verify_bundle.py",
+      "sha256": "02dd4dcdbc18d0c8cd1e4a2f677d796c8d616ca53f653e267ba3f00ac47fd03f",
+      "size_bytes": 3646
+    }
+  ],
+  "optional_reference_infer": "infer_vpsm_v5_npc_chat_gui_singleturn.py",
+  "production_contract": {
+    "default_temperature": 0.0,
+    "fresh_recurrent_state_each_query": true,
+    "identity_guard_is_application_layer": true,
+    "persona_supplied_each_query": true,
+    "reference_max_new_tokens": 18,
+    "single_turn_only": true
+  },
+  "production_eval": {
+    "hit_generation_cap": 25,
+    "mean_latency_ms": 524.4,
+    "mean_response_words": 7.0,
+    "mechanically_flagged": 95,
+    "mechanically_flagged_percent": 13.2,
+    "responses": 720
+  },
+  "release_name": "VPSM v5 UO NPC Final",
+  "release_tag": "v7-e14",
+  "tokenizer": {
+    "bundle_path": "tokenizer/tokenizer.json",
+    "encoding_version": "implicit-space-join",
+    "fingerprint": "19b02afcbd31da500c3f66578a5bc18024289d03ee6e53b1ec816a667cfbb2fc",
+    "normalization_version": "tiny-english-v2-implicit-boundary",
+    "source_path": "F:\\uovpsm\\vpsm_v5_scan_tinystories\\tokenizer\\tokenizer.json",
+    "special_ids": {
+      "<bos>": 1,
+      "<eos>": 2,
+      "<join>": 3,
+      "<pad>": 0,
+      "<sent>": 4,
+      "<unk>": 5
+    },
+    "vocab_size": 5000
+  }
+}

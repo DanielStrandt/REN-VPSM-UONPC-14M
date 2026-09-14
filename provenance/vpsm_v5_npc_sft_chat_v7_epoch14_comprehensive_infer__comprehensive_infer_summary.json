@@ -1,0 +1,746 @@
+{
+  "total": {
+    "count": 720,
+    "flagged": 95,
+    "flagged_pct": 13.194444444444445,
+    "empty": 3,
+    "hit_cap": 25,
+    "mean_response_words": 6.998611111111111,
+    "mean_latency_ms": 524.37548666785
+  },
+  "flags": {
+    "hit_token_cap": 25,
+    "farewell_miss": 22,
+    "identity_name_miss": 10,
+    "identity_town_miss": 10,
+    "unknown_without_ignorance": 8,
+    "clarification_miss": 5,
+    "refusal_miss": 4,
+    "greeting_miss": 3,
+    "gratitude_ack_miss": 3,
+    "identity_trade_miss": 3,
+    "empty": 3,
+    "town_drift:moonglow": 2,
+    "identity_self_no_fact": 2,
+    "profession_drift:miner": 2,
+    "town_drift:jhelom": 2,
+    "exact_player_echo": 1,
+    "profession_drift:alchemist": 1,
+    "ngram_loop": 1,
+    "word_loop": 1,
+    "town_drift:britain": 1
+  },
+  "sections": {
+    "core": {
+      "count": 384,
+      "flagged": 59,
+      "flagged_pct": 15.364583333333334,
+      "empty": 0,
+      "hit_cap": 20,
+      "mean_response_words": 7.651041666666667,
+      "mean_latency_ms": 563.7352364586453
+    },
+    "multiturn": {
+      "count": 120,
+      "flagged": 24,
+      "flagged_pct": 20.0,
+      "empty": 3,
+      "hit_cap": 3,
+      "mean_response_words": 5.741666666666666,
+      "mean_latency_ms": 438.22376250172965
+    },
+    "persona_matrix": {
+      "count": 96,
+      "flagged": 10,
+      "flagged_pct": 10.416666666666666,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 4.520833333333333,
+      "mean_latency_ms": 414.67433645933244
+    },
+    "profession": {
+      "count": 120,
+      "flagged": 2,
+      "flagged_pct": 1.6666666666666667,
+      "empty": 0,
+      "hit_cap": 2,
+      "mean_response_words": 8.15,
+      "mean_latency_ms": 572.3369316702398
+    }
+  },
+  "families": {
+    "apology": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 5.0,
+      "mean_latency_ms": 415.7128499937244
+    },
+    "clarification": {
+      "count": 8,
+      "flagged": 5,
+      "flagged_pct": 62.5,
+      "empty": 0,
+      "hit_cap": 1,
+      "mean_response_words": 7.75,
+      "mean_latency_ms": 581.0128875018563
+    },
+    "compliment": {
+      "count": 8,
+      "flagged": 1,
+      "flagged_pct": 12.5,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 6.0,
+      "mean_latency_ms": 491.54137502773665
+    },
+    "concern_sympathy": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 10.75,
+      "mean_latency_ms": 707.6121749414597
+    },
+    "confusion": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 7.75,
+      "mean_latency_ms": 562.0356750150677
+    },
+    "confusion_repair": {
+      "count": 5,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 8.4,
+      "mean_latency_ms": 596.7422800604254
+    },
+    "contradiction": {
+      "count": 8,
+      "flagged": 1,
+      "flagged_pct": 12.5,
+      "empty": 0,
+      "hit_cap": 1,
+      "mean_response_words": 7.0,
+      "mean_latency_ms": 543.6644250294194
+    },
+    "contradiction_thread": {
+      "count": 5,
+      "flagged": 1,
+      "flagged_pct": 20.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 6.4,
+      "mean_latency_ms": 470.68130006082356
+    },
+    "correction": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 9.125,
+      "mean_latency_ms": 629.1487124981359
+    },
+    "drink_tavern": {
+      "count": 8,
+      "flagged": 1,
+      "flagged_pct": 12.5,
+      "empty": 0,
+      "hit_cap": 1,
+      "mean_response_words": 11.25,
+      "mean_latency_ms": 666.3350749877281
+    },
+    "family_chat": {
+      "count": 5,
+      "flagged": 1,
+      "flagged_pct": 20.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 6.8,
+      "mean_latency_ms": 422.85850001499057
+    },
+    "farewell": {
+      "count": 8,
+      "flagged": 2,
+      "flagged_pct": 25.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 3.75,
+      "mean_latency_ms": 360.8915250224527
+    },
+    "farewell_variant": {
+      "count": 8,
+      "flagged": 6,
+      "flagged_pct": 75.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 7.25,
+      "mean_latency_ms": 587.9047124471981
+    },
+    "food": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 5.875,
+      "mean_latency_ms": 422.59613747592084
+    },
+    "food_thread": {
+      "count": 5,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 7.4,
+      "mean_latency_ms": 621.6038000304252
+    },
+    "gossip": {
+      "count": 8,
+      "flagged": 3,
+      "flagged_pct": 37.5,
+      "empty": 0,
+      "hit_cap": 3,
+      "mean_response_words": 10.0,
+      "mean_latency_ms": 804.7254749690183
+    },
+    "gratitude": {
+      "count": 8,
+      "flagged": 3,
+      "flagged_pct": 37.5,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 5.625,
+      "mean_latency_ms": 430.62257501878776
+    },
+    "greeting": {
+      "count": 8,
+      "flagged": 3,
+      "flagged_pct": 37.5,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 3.625,
+      "mean_latency_ms": 256.6495999635663
+    },
+    "home_family": {
+      "count": 8,
+      "flagged": 1,
+      "flagged_pct": 12.5,
+      "empty": 0,
+      "hit_cap": 1,
+      "mean_response_words": 8.625,
+      "mean_latency_ms": 606.8536375532858
+    },
+    "hostility_mild": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 8.75,
+      "mean_latency_ms": 539.47158754454
+    },
+    "hostility_threat": {
+      "count": 8,
+      "flagged": 1,
+      "flagged_pct": 12.5,
+      "empty": 0,
+      "hit_cap": 1,
+      "mean_response_words": 7.5,
+      "mean_latency_ms": 596.9264875166118
+    },
+    "identity_chain": {
+      "count": 5,
+      "flagged": 2,
+      "flagged_pct": 40.0,
+      "empty": 0,
+      "hit_cap": 1,
+      "mean_response_words": 8.2,
+      "mean_latency_ms": 586.9924999773502
+    },
+    "identity_correction": {
+      "count": 5,
+      "flagged": 4,
+      "flagged_pct": 80.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 5.8,
+      "mean_latency_ms": 395.10856000706553
+    },
+    "identity_name": {
+      "count": 8,
+      "flagged": 5,
+      "flagged_pct": 62.5,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 4.625,
+      "mean_latency_ms": 457.59271245333366
+    },
+    "identity_self": {
+      "count": 8,
+      "flagged": 2,
+      "flagged_pct": 25.0,
+      "empty": 0,
+      "hit_cap": 1,
+      "mean_response_words": 6.625,
+      "mean_latency_ms": 591.6105625219643
+    },
+    "identity_town": {
+      "count": 8,
+      "flagged": 4,
+      "flagged_pct": 50.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 4.25,
+      "mean_latency_ms": 406.3031999685336
+    },
+    "identity_trade": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 4.5,
+      "mean_latency_ms": 471.8697875214275
+    },
+    "insult_apology": {
+      "count": 5,
+      "flagged": 1,
+      "flagged_pct": 20.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 5.4,
+      "mean_latency_ms": 365.0683199521154
+    },
+    "introduction": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 7.75,
+      "mean_latency_ms": 551.5407500206493
+    },
+    "joke_humor": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 11.25,
+      "mean_latency_ms": 757.5378375186119
+    },
+    "light_humor": {
+      "count": 5,
+      "flagged": 1,
+      "flagged_pct": 20.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 7.4,
+      "mean_latency_ms": 477.7286399155855
+    },
+    "likes_dislikes": {
+      "count": 8,
+      "flagged": 1,
+      "flagged_pct": 12.5,
+      "empty": 0,
+      "hit_cap": 1,
+      "mean_response_words": 8.875,
+      "mean_latency_ms": 630.0452249997761
+    },
+    "local_place_chat": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 8.875,
+      "mean_latency_ms": 592.178987513762
+    },
+    "meta_conversation": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 8.125,
+      "mean_latency_ms": 677.5009999691974
+    },
+    "modern_chat": {
+      "count": 5,
+      "flagged": 2,
+      "flagged_pct": 40.0,
+      "empty": 2,
+      "hit_cap": 0,
+      "mean_response_words": 2.6,
+      "mean_latency_ms": 222.7613199967891
+    },
+    "modern_slang": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 5.25,
+      "mean_latency_ms": 402.1632374788169
+    },
+    "mood_emotion": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 7.75,
+      "mean_latency_ms": 530.5836999614257
+    },
+    "nonsense_input": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 8.125,
+      "mean_latency_ms": 507.7205500565469
+    },
+    "opinion": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 9.625,
+      "mean_latency_ms": 692.2001375351101
+    },
+    "ordinary_smalltalk": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 8.375,
+      "mean_latency_ms": 545.3838624525815
+    },
+    "persona_matrix": {
+      "count": 96,
+      "flagged": 10,
+      "flagged_pct": 10.416666666666666,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 4.520833333333333,
+      "mean_latency_ms": 414.67433645933244
+    },
+    "persona_trait": {
+      "count": 8,
+      "flagged": 1,
+      "flagged_pct": 12.5,
+      "empty": 0,
+      "hit_cap": 1,
+      "mean_response_words": 9.0,
+      "mean_latency_ms": 592.415000020992
+    },
+    "player_name_memory": {
+      "count": 5,
+      "flagged": 2,
+      "flagged_pct": 40.0,
+      "empty": 0,
+      "hit_cap": 1,
+      "mean_response_words": 7.4,
+      "mean_latency_ms": 607.7880600467324
+    },
+    "player_need_memory": {
+      "count": 5,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 4.8,
+      "mean_latency_ms": 378.36971995420754
+    },
+    "player_story": {
+      "count": 5,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 4.4,
+      "mean_latency_ms": 404.18509994633496
+    },
+    "player_story_response": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 8.0,
+      "mean_latency_ms": 575.8989999885671
+    },
+    "profession": {
+      "count": 120,
+      "flagged": 2,
+      "flagged_pct": 1.6666666666666667,
+      "empty": 0,
+      "hit_cap": 2,
+      "mean_response_words": 8.15,
+      "mean_latency_ms": 572.3369316702398
+    },
+    "profession_social": {
+      "count": 5,
+      "flagged": 1,
+      "flagged_pct": 20.0,
+      "empty": 1,
+      "hit_cap": 0,
+      "mean_response_words": 5.0,
+      "mean_latency_ms": 426.2240400072187
+    },
+    "refusal_boundary": {
+      "count": 8,
+      "flagged": 4,
+      "flagged_pct": 50.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 7.25,
+      "mean_latency_ms": 520.8219875057694
+    },
+    "refusal_thread": {
+      "count": 5,
+      "flagged": 1,
+      "flagged_pct": 20.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 4.2,
+      "mean_latency_ms": 347.78380007483065
+    },
+    "repeat_consistency": {
+      "count": 5,
+      "flagged": 2,
+      "flagged_pct": 40.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 4.8,
+      "mean_latency_ms": 429.81177996844053
+    },
+    "request_simple": {
+      "count": 8,
+      "flagged": 2,
+      "flagged_pct": 25.0,
+      "empty": 0,
+      "hit_cap": 2,
+      "mean_response_words": 10.625,
+      "mean_latency_ms": 869.4373124744743
+    },
+    "rude_command": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 6.625,
+      "mean_latency_ms": 460.0336374423932
+    },
+    "seasonal": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 8.125,
+      "mean_latency_ms": 516.2118125008419
+    },
+    "sensory": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 6.875,
+      "mean_latency_ms": 534.8359375202563
+    },
+    "short_call": {
+      "count": 8,
+      "flagged": 1,
+      "flagged_pct": 12.5,
+      "empty": 0,
+      "hit_cap": 1,
+      "mean_response_words": 6.25,
+      "mean_latency_ms": 518.5068874852732
+    },
+    "short_commands": {
+      "count": 5,
+      "flagged": 1,
+      "flagged_pct": 20.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 4.0,
+      "mean_latency_ms": 362.54340005107224
+    },
+    "social_day": {
+      "count": 5,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 5.4,
+      "mean_latency_ms": 510.6153399683535
+    },
+    "social_invitation": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 8.25,
+      "mean_latency_ms": 641.2494250107557
+    },
+    "social_invite": {
+      "count": 5,
+      "flagged": 1,
+      "flagged_pct": 20.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 5.0,
+      "mean_latency_ms": 384.09548001363873
+    },
+    "threat_recovery": {
+      "count": 5,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 4.8,
+      "mean_latency_ms": 398.11156005598605
+    },
+    "tired_hungry": {
+      "count": 8,
+      "flagged": 1,
+      "flagged_pct": 12.5,
+      "empty": 0,
+      "hit_cap": 1,
+      "mean_response_words": 7.375,
+      "mean_latency_ms": 520.4351250140462
+    },
+    "topic_switch": {
+      "count": 5,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 4.8,
+      "mean_latency_ms": 366.8022799305618
+    },
+    "topic_unknown_lore": {
+      "count": 8,
+      "flagged": 6,
+      "flagged_pct": 75.0,
+      "empty": 0,
+      "hit_cap": 3,
+      "mean_response_words": 11.25,
+      "mean_latency_ms": 865.5963500204962
+    },
+    "town_chatter": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 6.25,
+      "mean_latency_ms": 405.8826125401538
+    },
+    "town_thread": {
+      "count": 5,
+      "flagged": 1,
+      "flagged_pct": 20.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 5.4,
+      "mean_latency_ms": 339.8906600661576
+    },
+    "unknown": {
+      "count": 8,
+      "flagged": 4,
+      "flagged_pct": 50.0,
+      "empty": 0,
+      "hit_cap": 1,
+      "mean_response_words": 11.125,
+      "mean_latency_ms": 818.9566625223961
+    },
+    "unknown_followup": {
+      "count": 5,
+      "flagged": 2,
+      "flagged_pct": 40.0,
+      "empty": 0,
+      "hit_cap": 1,
+      "mean_response_words": 8.2,
+      "mean_latency_ms": 559.3571399804205
+    },
+    "weather": {
+      "count": 8,
+      "flagged": 1,
+      "flagged_pct": 12.5,
+      "empty": 0,
+      "hit_cap": 1,
+      "mean_response_words": 6.375,
+      "mean_latency_ms": 475.658037525136
+    },
+    "weather_thread": {
+      "count": 5,
+      "flagged": 1,
+      "flagged_pct": 20.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 5.0,
+      "mean_latency_ms": 383.69583995081484
+    },
+    "wellbeing": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 6.625,
+      "mean_latency_ms": 495.2203875000123
+    },
+    "work_followup": {
+      "count": 5,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 6.2,
+      "mean_latency_ms": 458.5508800111711
+    },
+    "work_general": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 6.625,
+      "mean_latency_ms": 521.530662488658
+    },
+    "yes_no": {
+      "count": 8,
+      "flagged": 0,
+      "flagged_pct": 0.0,
+      "empty": 0,
+      "hit_cap": 0,
+      "mean_response_words": 11.0,
+      "mean_latency_ms": 708.6640499765053
+    }
+  },
+  "note": "Flags are mechanical diagnostics, not semantic quality scores. Human review is authoritative.",
+  "checkpoint": "F:\\uovpsm\\vpsm_v5_npc_sft_chat_v7_semantic_routing_final\\checkpoints\\epoch_14.pt",
+  "checkpoint_sha256": "4890b25cdc4c1e3c9fdee09d9f298dc0d23e0ff9f80935477d2c36f3f3d80d68",
+  "tokenizer_fingerprint": "19b02afcbd31da500c3f66578a5bc18024289d03ee6e53b1ec816a667cfbb2fc",
+  "elapsed_seconds": 378.5789913998451,
+  "max_new_tokens": 24,
+  "also_lowtemp": false
+}

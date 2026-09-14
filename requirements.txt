@@ -1,0 +1,6 @@
+# VPSM v5 UO NPC Final runtime dependencies
+#
+# Install a CUDA-enabled PyTorch build appropriate for the target machine.
+# The exact source-machine versions are recorded in runtime_environment.json.
+torch
+tokenizers

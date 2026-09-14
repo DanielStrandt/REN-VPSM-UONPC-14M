@@ -1,0 +1,25 @@
+VPSM v5 UO NPC Final
+=====================
+Release tag: v7-e14
+Final training checkpoint: epoch 14
+Architecture: VPSM v5 scan recurrent language model
+Parameters: 13,660,176
+Vocabulary: 5,000 frozen IDs
+
+Production evaluation snapshot:
+- comprehensive responses: 720
+- mechanically flagged: 95 (13.2%)
+- hit generation cap: 25
+- mean response words: 7.00
+- mean latency during that run: 524.4 ms
+
+Production inference contract:
+- single-turn query only
+- fresh recurrent state for every player utterance
+- persona/system prompt supplied every query
+- greedy generation is the default baseline
+- short generation cap (18 tokens used by the reference GUI)
+- identity mistakes may be corrected by a narrow post-generation guard
+
+The identity guard is an application-layer protection. It is not part of the
+checkpoint weights.
