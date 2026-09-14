@@ -20,10 +20,6 @@ Each request is independent:
 NPC persona/state + current player speech -> one NPC reply
 ```
 
-Do not send the visible chat transcript back into the model. If the game needs
-memory, keep structured facts in the server and provide only the relevant facts
-for the current turn.
-
 ## Release
 
 - Release: `v7-e14`
